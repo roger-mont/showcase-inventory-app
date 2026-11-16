@@ -177,7 +177,8 @@ the Lovable template, and **4 are PR merges** done by the lab's account.
 
 Starting from that prototype, I built:
 
-- the Supabase integration (areas, items, movements and report reading real data);
+- the backend hosted on Supabase: database, access rules and SQL functions;
+- wiring the app to that backend (areas, items, movements and report reading real data);
 - the Android packaging with Capacitor, the SPA build for mobile and the splash screen;
 - Google sign-in through the in-app browser and deep link;
 - role-based access control in the frontend (auth context and `usePermission`);

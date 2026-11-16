@@ -176,7 +176,8 @@ template do Lovable, e **4 são merges de PR** feitos pela conta do laboratório
 
 A partir do protótipo, fiz:
 
-- a integração com o Supabase (áreas, itens, movimentações e relatório lendo dados reais);
+- o backend hospedado no Supabase: banco, regras de acesso e funções SQL;
+- a integração do app com esse backend (áreas, itens, movimentações e relatório lendo dados reais);
 - o empacotamento Android com Capacitor, o build SPA para mobile e a splash screen;
 - o login com Google por in-app browser e deep link;
 - o controle de acesso por cargo no frontend (contexto de autenticação e `usePermission`);
